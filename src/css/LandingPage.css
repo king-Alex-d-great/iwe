@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    font-size: 87.5%;
+}
+
+.lp__parallax-image{
+    background-image: url(../assets/images/InkedUn_LI.jpg);
+    min-height: 70vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.lp__describe-section{
+   margin: 2.71rem;
+   
+}
+.lp__describe-header{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    font-size: 2.85rem;
+    line-height: 1.3;
+    letter-spacing: 0px
+}
+.lp__describe-footer-container{
+    display: flex;
+    justify-content: center;    
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 0px;padding: 2.5rem;
+
+}
+.lp__describe-footer-container > *{
+   margin: 0 1rem ;
+    padding: 1.40rem; 
+    min-width: 33.3%;
+}
+.lp__describe-footer-section{
+    border: 2px solid white;
+      transition: all 1s ease-in; 
+       
+}
+.lp__describe-footer-section:hover{
+    border: 2px solid green;
+}
+.lp__describe-footer-section-icon{
+    font-size: 8rem;
+    color: black;
+}
+.lp__describe-footer-section-header{
+    font-size: 1.71rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    line-height: 1.3;
+    letter-spacing: 0.02px
+    
+    
+}
+.lp__describe-footer-section-subheader{
+    font-size: 1.14rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+     margin-bottom: 0.8rem;
+     line-height: 1.3;
+     letter-spacing: 0.02px
+}
+.lp__describe-footer-section-para{
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    line-height: 1.3;
+    letter-spacing: 0.05rem;
+    
+}
+.lp__About-main{
+    display: flex;
+    justify-content: center;
+    padding: 3% 1.5%;
+    background-color: rgba(226, 202, 202, 0.692);
+}
+.lp__About-main-image-container{
+    width: 55%;
+    height: 465px;
+   margin: 0 30px;
+   
+}
+
+.lp__About-main-text-header{
+    font-size: 2.85rem;
+    font-weight: 600;
+    line-height: 1.3;
+    letter-spacing: 0.02px;
+  margin: 0 auto 1.5rem;
+    
+}
+.lp__About-main-text-describe{
+   
+        font-weight: 400;
+        font-style: normal;
+        font-family: 'Open Sans', sans-serif;
+        color: #a9a196;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0px;
+}
+.lp__About-main-text-goal{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #ffa900;
+    font-size: 24px;
+    line-height: 1.4;
+    letter-spacing: 0px;
+    margin: 3rem auto ;
+    display: inline-block;
+}
+.lp__About-main-text-para1{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Merriweather', serif;
+    color: #683d4a;
+    font-size: 20px;
+    line-height: 1.7;
+    letter-spacing: 0px
+}
+.lp__About-main-text-para2{
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #a9a196;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0px;
+
+}

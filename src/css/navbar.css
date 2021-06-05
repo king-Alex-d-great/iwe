@@ -11,8 +11,9 @@ html, body{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    border: 2px solid black;
-    padding:0;
+  /* position: fixed; */
+  background-attachment: white;
+    padding: 2.5rem;
 }
 
 .navbar__main-logo-holder{
@@ -47,8 +48,9 @@ ul.navbar__main-links-holder li> a:hover{
     margin: auto 2rem;
 }
 .navbar__main-button button {
-    width: 10rem;
-    padding: 1.2rem;
+    width: 12.85rem;
+    height: 4.28rem;
+    padding: 1.2rem 1rem;
     border: none;
     border-radius: 0.5rem;
 }
