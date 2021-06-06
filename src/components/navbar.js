@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/navbar.css";
+import Button from "./Button/button";
 
 const Navbar = () => {
     return (
@@ -33,14 +34,7 @@ const Navbar = () => {
                 </section>
                    
 
-                <section className="navbar__main-button">
- 
-                        <button>
-                           Donate Now 
-                        </button>
-                   
-
-                </section>
+               <Button name="Donate Now "/>
            </main>
        </nav>     
     )

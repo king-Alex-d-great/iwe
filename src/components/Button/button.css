@@ -1,0 +1,15 @@
+/* .main-button{
+    margin: auto 2rem;
+} */
+.main-button .button {
+    width: 12.85rem;
+    height: 4.28rem;
+    padding: 1.2rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+}
+.button:hover{
+    background-color: lawngreen;
+}
+
+
