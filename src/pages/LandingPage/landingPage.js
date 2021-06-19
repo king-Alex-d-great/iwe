@@ -119,15 +119,14 @@ const LandingPage = () => {
                 need by running the marathon and donating.
               </p>
             </div>
-              <div className="lp__Event-top-text-content-left">
-              <Timer number="00" unit="Days" separate =":" />
-              <Timer number="06" unit="Hour" separate =":"  />
-              <Timer number="30" unit="Minute" separate =":"  />
+            <div className="lp__Event-top-text-content-left">
+              <Timer number="00" unit="Days" separate=":" />
+              <Timer number="06" unit="Hour" separate=":" />
+              <Timer number="30" unit="Minute" separate=":" />
               <Timer number="46" unit="Second" />
             </div>
-           
-          </div> 
-        
+          </div>
+
           <aside className="lp__Event-bottom-text">
             <div>
               <label for="lp__Event-bottom-text-content-left-input"></label>
@@ -141,14 +140,40 @@ const LandingPage = () => {
           </aside>
         </div>
       </section>
-      <section className="lp__Volunteer"> 
-      <div>
-       
-        <article> <h2> Become a volunteer </h2>
-        <hr />
-        <p>
-          </p></article>
-      </div>
+
+      <section className="lp__Volunteer">
+        <div className="lp__Volunteer one">
+          <article>
+            {" "}
+            <h2 className="lp__Event-top-text-content-right-header">
+              {" "}
+              Become a volunteer{" "} <hr />
+            </h2>
+           
+            <p className="lp__Event-top-text-content-right-para three">
+              This HTML file is a template. If you open it directly in the
+              browser, <br />you will see an empty page. 
+              You can add webfonts, meta tags, or analytics to this file.<br /> The
+              build step will place the bundled scripts into the tag.
+              <br />
+              To begin the development, run `npm start` <br />or `yarn start`. To
+              create a production bundle, use `npm run build` or `yarn build`.
+            </p>
+          </article>
+        </div>
+        <div className="lp__Volunteer two">
+          <aside className="lp__Event-bottom-text">
+            <div>
+              <label for="lp__Event-bottom-text-content-left-input"></label>
+              <input
+                type="text"
+                className="lp__Event-bottom-text-content-left-input"
+                placeholder="Enter your email address"
+              ></input>
+              <Button name="Join Us" />
+            </div>
+          </aside>
+        </div>
       </section>
     </main>
   );
