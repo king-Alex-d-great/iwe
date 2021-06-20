@@ -1,45 +1,48 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-html,
-body {
-  font-size: 87.5%;
-  font-family: "Montserrat", sans-serif;
+html, body{
+    font-size: 87.5%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-.navbar__main {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  /* position: fixed; */
-  background-attachment: white;
-  padding: 2.5rem;
+.navbar__main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  position: fixed;
+  background-color: white;
+    padding:0.8rem;
 }
 
-.navbar__main-logo-holder {
-  display: flex;
-  margin-left: 2rem;
-  text-align: center;
-}
-.navbar__main-logo-holder * {
-  margin: auto 0.5rem;
-  text-transform: uppercase;
-  font-size: inherit;
-}
+.navbar__main-logo-holder{
+    display: flex;
+    margin-left: 2rem;
+    text-align: center;
+  }
+  .navbar__main-logo-holder *{
+      margin: auto 0.5rem;
+      text-transform: uppercase;
+      font-size: inherit;
+  }
 
 ul.navbar__main-links-holder li {
-  display: inline-block;
-  margin: 2rem;
+    display: inline-block;
+    margin:1.2rem ;
+   
+    
 }
 ul.navbar__main-links-holder li > a {
-  text-decoration: none;
+    text-decoration: none;
 }
-ul.navbar__main-links-holder li > a:link {
-  color: black;
+ul.navbar__main-links-holder li> a:link{
+    color:black;
+
 }
-ul.navbar__main-links-holder li > a:hover {
-  color: yellow;
+ul.navbar__main-links-holder li> a:hover{
+    color:yellow;
+
 }

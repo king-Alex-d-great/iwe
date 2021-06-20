@@ -1,8 +1,21 @@
-import React from "react";
+import React, {useState} from "react";
 import "../css/navbar.css";
 import Button from "./Button/button";
+import DropDown from "./dropdown/dropdown";
+import { dropDownInfo } from "../DataLibrary/dropdowninfo";
+
+
 
 const Navbar = () => {
+
+
+   const dropdowndata = dropDownInfo.map(dropdown => {
+       return(
+           <li className="navbar__main-links-1"><a href = "#"> <DropDown info={dropdown}/></a></li>  
+       ) });
+    
+ 
+  
     return (
        <nav className="navbar">
            <main className="navbar__main">
@@ -23,13 +36,11 @@ const Navbar = () => {
                 <section className="navbar__main-links">
                      <div className="navbar__main-links-holder">
                         <ul className="navbar__main-links-holder">
-                           <li className="navbar__main-links-1"><a href = "#"> News</a></li> 
-                           <li className="navbar__main-links-1"><a href = "#"> Events</a></li> 
-                           <li className="navbar__main-links-1"><a href = "#"> Contact</a></li> 
-                           <li className="navbar__main-links-1"><a href = "#"> Become a volunteer</a></li> 
-                           <li className="navbar__main-links-1"><a href = "#"> About us</a></li> 
+                           {dropdowndata}
                         </ul>
                     </div>
+
+                   
 
                 </section>
                    

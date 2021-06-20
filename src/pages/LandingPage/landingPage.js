@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../../components/navbar";
+import Navbar from "../../components/navbar"
 import "../../css/LandingPage.css";
 import pic2 from "../../assets/images/pic2.jpg";
 import { FcDonate } from "react-icons/fc";
