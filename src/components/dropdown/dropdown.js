@@ -3,12 +3,12 @@ import "./dropdown.css";
 import { GoTriangleDown } from "react-icons/go";
 
 const DropDown = (props) => {
-  const [dropDownState, setDropDownState] = useState("");
+  // const [dropDownState, setDropDownState] = useState("");
 
-  const toggleDropDown = () => {
-    const toggler = !dropDownState ? "show" : "";
-    setDropDownState(toggler);
-  };
+  // const toggleDropDown = () => {
+  //   const toggler = !dropDownState ? "show" : "";
+  //   setDropDownState(toggler);
+  // };
 
 
   return (

@@ -30,12 +30,16 @@
   }
   
   .dropdown-content a:hover {
+    display: block;
     background: #f1f2fd;
     border-radius: 10px;
   }
-  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*   
   .show {
     display: block;
   }
-
+ */
 
