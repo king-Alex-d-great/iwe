@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../../components/navbar"
+import Navbar from "../../components/navbar";
 import "../../css/LandingPage.css";
 import pic2 from "../../assets/images/pic2.jpg";
 import { FcDonate } from "react-icons/fc";
 import { BiDonateHeart } from "react-icons/bi";
-import { FaUsers } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaTwitter, FaUsers, FaWhatsapp } from "react-icons/fa";
 import AboutFooterSection from "../../components/landingpage/aboutFooterSection";
 import Button from "../../components/Button/button";
 import Timer from "../../components/timer/timer";
@@ -17,6 +17,27 @@ const LandingPage = () => {
       </section>
 
       <section className="lp__parallax-image"></section>
+      <section className="lp__intro">
+        <div className="lp__intro-container">
+          <div className="lp__intro-line top"></div>
+          <article className="lp__intro-text-container">
+            <h2 className="lp__intro-text-header">Save d women </h2>
+            <div>&nbsp;</div>
+            <div className="lp__intro-text one">
+              Around the world, too many children still start life at a
+              disadvantage simply because of who they are and where they are
+              from.
+            </div>
+            <div>&nbsp;</div>
+            <div className="lp__intro-text two">
+              Save the Children has a bold ambition: we believe in a world in
+              which all children survive, have the chance to learn, and are
+              protected from abuse, neglect and exploitation.
+            </div>
+          </article>
+          <div className="lp__intro-line bottom"></div>
+        </div>
+      </section>
       <section className="lp__describe">
         <div className="lp__describe-section">
           {/* <header className="lp__describe-header-container">
@@ -147,17 +168,18 @@ const LandingPage = () => {
             {" "}
             <h2 className="lp__Event-top-text-content-right-header">
               {" "}
-              Become a volunteer{" "} <hr />
+              Become a volunteer <hr />
             </h2>
-           
             <p className="lp__Event-top-text-content-right-para three">
               This HTML file is a template. If you open it directly in the
-              browser, <br />you will see an empty page. 
-              You can add webfonts, meta tags, or analytics to this file.<br /> The
-              build step will place the bundled scripts into the tag.
+              browser, <br />
+              you will see an empty page. You can add webfonts, meta tags, or
+              analytics to this file.
+              <br /> The build step will place the bundled scripts into the tag.
               <br />
-              To begin the development, run `npm start` <br />or `yarn start`. To
-              create a production bundle, use `npm run build` or `yarn build`.
+              To begin the development, run `npm start` <br />
+              or `yarn start`. To create a production bundle, use `npm run
+              build` or `yarn build`.
             </p>
           </article>
         </div>
@@ -172,6 +194,42 @@ const LandingPage = () => {
               ></input>
               <Button name="Join Us" />
             </div>
+          </aside>
+        </div>
+      </section>
+
+      <section className="lp-socials">
+        <div>
+          <h3>Together we are stronger. Join the conversation.</h3>
+        </div>
+        <div>
+          <aside>
+            <a
+              target="_blank"
+              title="Twitter"
+              href="https://twitter.com/save_children"
+            > <FaFacebook /></a>
+          </aside>
+          <aside>
+            <a
+              target="_blank"
+              title="Twitter"
+              href="https://twitter.com/save_children"
+            > <FaTwitter /></a>
+          </aside>
+          <aside>
+            <a
+              target="_blank"
+              title="Twitter"
+              href="https://twitter.com/save_children"
+            ><FaWhatsapp /></a>
+          </aside>
+          <aside>
+            <a
+              target="_blank"
+              title="Twitter"
+              href="https://twitter.com/save_children"
+            ><FaInstagram /></a>
           </aside>
         </div>
       </section>

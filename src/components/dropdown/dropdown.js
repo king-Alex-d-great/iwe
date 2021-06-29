@@ -13,10 +13,10 @@ const DropDown = (props) => {
 
   return (
     <div class="dropdown">
-      <button class="dropbtn" onClick={toggleDropDown}>
+      <button class="dropbtn" >
         {props.info.name} <GoTriangleDown />{" "}
       </button>
-      <div class={`${dropDownState} dropdown-content`} id="myDropdown">
+      <div class={`dropdown-content`} id="myDropdown">
         <a data-name="#" href="#" >{props.info.content1}</a>
         <a href="#">{props.info.content2}</a>
         <a href="#">{props.info.content3}</a>

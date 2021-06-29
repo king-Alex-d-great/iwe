@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\assets",
+    "\\src\\assets\\images",
+    "\\src\\components",
+    "\\src\\components\\dropdown",
+    "\\src\\components\\timer",
+    "\\src\\css",
+    "\\src\\pages",
+    "\\src\\pages\\LandingPage"
+  ],
+  "SelectedNode": "\\src\\css\\LandingPage.css",
+  "PreviewInSolutionExplorer": false
+}

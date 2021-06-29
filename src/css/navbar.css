@@ -1,48 +1,88 @@
-
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-html, body{
-    font-size: 87.5%;
-    font-family: 'Montserrat', sans-serif;
+html,
+body {
+  font-size: 87.5%;
+  font-family: "Montserrat", sans-serif;
 }
 
-.navbar__main{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+.navbar__main {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   position: fixed;
   background-color: white;
-    padding:0.8rem;
+  padding: 0.8rem;
 }
 
-.navbar__main-logo-holder{
-    display: flex;
-    margin-left: 2rem;
-    text-align: center;
-  }
-  .navbar__main-logo-holder *{
-      margin: auto 0.5rem;
-      text-transform: uppercase;
-      font-size: inherit;
-  }
+.navbar__main-logo-holder {
+  display: flex;
+  text-align: center;
+}
+.navbar__main-logo-holder * {
+  margin: auto 0.5rem;
+  text-transform: uppercase;
+  font-size: inherit;
+}
 
 ul.navbar__main-links-holder li {
-    display: inline-block;
-    margin:1.2rem ;
-   
-    
+  display: inline-block;
+  margin: 1.2rem;
 }
 ul.navbar__main-links-holder li > a {
-    text-decoration: none;
+  text-decoration: none;
 }
-ul.navbar__main-links-holder li> a:link{
-    color:black;
+ul.navbar__main-links-holder li > a:link {
+  color: black;
+}
+ul.navbar__main-links-holder li > a:hover {
+  color: yellow;
+}
+.navbar_main-button-holder {
+  display: flex;
+  justify-content: space-evenly;
+}
+a.icon {
+  display: none;
+}
+.burgerIcon {
+  width: 20px;
+  height: 40px;
+  color: black;
+}
 
+/* mediaqueries */
+@media screen and (max-width: 1195px) {
+  .navbar__main-logo-holder-text p {
+    font-size: 9px;
+  }
 }
-ul.navbar__main-links-holder li> a:hover{
-    color:yellow;
+@media screen and (max-width: 940px) {
+  .navbar_main.responsive {
+      position : relative;
+  }
+  .navbar_main.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar_main.responsive a {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar__main-links{
+      display:none;
+  }
+}
 
-}
+  /* .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  } */

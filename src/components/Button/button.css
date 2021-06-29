@@ -4,12 +4,19 @@
 .main-button .button {
     width: 10.85rem;
     height: 3.28rem;
-    padding: 1rem;
     border: none;
     border-radius: 0.5rem;
 }
 .button:hover{
     background-color: lawngreen;
+}
+
+@media screen and (max-width: 1195px) {
+    
+    .main-button .button {
+       width: 5rem;
+       font-size: 10px;
+    }
 }
 
 

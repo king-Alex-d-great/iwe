@@ -1,4 +1,3 @@
-
 * {
   padding: 0;
   margin: 0;
@@ -6,8 +5,10 @@
 }
 html,
 body {
+  padding: 0;
+  margin: 0;
   font-size: 87.5%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .lp__parallax-image {
@@ -19,7 +20,35 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (max-width: 1195px) {
+  .lp__parallax-image {
+    overflow: hidden;
+  }
+}
+/* intro section */
 
+.lp__intro-line{
+  border-right: 1px solid #d1ccbd;
+  height: 100px;
+  width: 50%;
+}
+.lp__intro-text-container {
+  text-align: center;
+  padding: 35px 300px;
+}
+.lp__intro-text-header {
+  font-size: 2.71rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  line-height: 2;
+}
+.lp__intro-text {
+  font-size:1.1rem;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.8;
+}
 /* describe section */
 .lp__describe-section {
   margin: 2.71rem;
@@ -27,7 +56,7 @@ body {
 .lp__describe-header {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2.85rem;
   line-height: 1.3;
   letter-spacing: 0px;
@@ -60,7 +89,7 @@ body {
   font-size: 1.71rem;
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   letter-spacing: 0.02px;
 }
@@ -68,7 +97,7 @@ body {
   font-size: 1.14rem;
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   margin-bottom: 0.8rem;
   line-height: 1.3;
   letter-spacing: 0.02px;
@@ -77,7 +106,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: 1.3;
   letter-spacing: 0.05rem;
 }
@@ -88,7 +117,6 @@ body {
   justify-content: center;
   padding: 3% 1.5%;
   background-color: rgba(226, 202, 202, 0.692);
-  
 }
 .lp__About-main-image-container {
   width: 55%;
@@ -115,7 +143,7 @@ body {
 .lp__About-main-text-goal {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffa900;
   font-size: 24px;
   line-height: 1.4;
@@ -126,7 +154,7 @@ body {
 .lp__About-main-text-para1 {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #683d4a;
   font-size: 20px;
   line-height: 1.7;
@@ -153,7 +181,6 @@ body {
 }
 .lp__Event {
   padding: 10% 2%;
-  
 }
 .lp__Event-top-text-content {
   display: flex;
@@ -163,7 +190,7 @@ body {
 }
 .lp__Event-top-text-content-right-header {
   font-weight: 400;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-size: 40px;
   line-height: 1.3;
@@ -173,7 +200,7 @@ body {
 .lp__Event-top-text-content-right-para.one {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #ffa900;
   font-size: 30px;
   line-height: 1.2;
@@ -182,7 +209,7 @@ body {
 .lp__Event-top-text-content-right-para.two {
   font-weight: 400;
   font-style: normal;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #fff;
   font-size: 18px;
   line-height: 1.7;
@@ -197,18 +224,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0px;
-  
 }
-.lp__Event-top-text-content-left{
- 
- display: flex;
- width: 50%;
- justify-content: center;
- align-content: center;
-padding: 50px 5px;
- text-align: center;
- box-sizing: border-box;
-    
+.lp__Event-top-text-content-left {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-content: center;
+  padding: 50px 5px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .lp__Event-bottom-text-content-left-input {
@@ -216,23 +240,22 @@ padding: 50px 5px;
   padding: 15px 28px;
   line-height: normal;
   height: 60px;
-    border: 1px solid;
+  border: 1px solid;
   border-radius: 0.3rem;
   margin: 0.5% 0;
 }
 
-.lp__Event-bottom-text{
-      padding: 0 9.5px;
-      margin: 0.8% 0;
+.lp__Event-bottom-text {
+  padding: 0 9.5px;
+  margin: 0.8% 0;
 }
-.lp__Volunteer{
+.lp__Volunteer {
   display: flex;
   padding: 3% 1.5%;
   /* align-items: center; */
   /* flex-wrap:wrap ;*/
-  justify-content: flex-start; 
+  justify-content: flex-start;
   background-color: black;
-  
 }
 
 .lp__Volunteer > * {
@@ -240,3 +263,5 @@ padding: 50px 5px;
   padding: 1.4rem;
   /* width: 40%; */
 }
+/* socials */
+

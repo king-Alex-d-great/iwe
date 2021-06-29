@@ -27,11 +27,10 @@ export const dropDownInfo = [
   },
   {
     id: 4,
-    name: "Contact",
-    content1: "Upcoming Events",
-    content2: "Voices for Change ",
-    content3: "Child Writes",
-    content4: "Lives Touched",
-    content5: "Blog",
-  },
+    name: "Join Us",
+    content1: "Volunteer",
+    content2: "Donor",
+    content3: "Partner",
+      },
+   
 ];
